@@ -3,6 +3,10 @@
 - type: github
   icon: "fab fa-github"
 
+- type: baekjoon
+  icon: "fas fa-code"
+  url: "https://www.acmicpc.net/user/kmaengggong"
+
 - type: twitter
   icon: "fab fa-twitter"
 
@@ -10,9 +14,9 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+# - type: rss
+#   icon: "fas fa-rss"
+#   noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon

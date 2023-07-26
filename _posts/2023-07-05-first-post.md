@@ -1,8 +1,8 @@
 ---
 title: "First Post"
-categories: [Docs]
+categories: [Blog]
 tag: [Test]
-image: /path/to/img/test/james-webb-cosmic-cliffs.jpg
+image: /assets/img/test/james-webb-cosmic-cliffs.jpg
 ---
 
 # 1. 기본 설정(.yml)
@@ -185,17 +185,17 @@ second line
 ## 2-11. Images
 ```markdown
 ![random-image](https://picsum.photos/id/2/600/400)
-![test-image](/path/to/img/test/james-webb-deepest-coldest-ices.png)
-![test-image2](/path/to/img/test/james-webb-galaxies-stephans-quintet.jpg){: w="700" h="400"}
-![test-image3](/path/to/img/test/james-webb-jupiter.png){: w="200" h="200" .right}  // .nomral, .left, .right
-![test-image4](/path/to/img/test/james-webb-satern.png){: .shadow}
+![test-image](/assets/img/test/james-webb-deepest-coldest-ices.png)
+![test-image2](/assets/img/test/james-webb-galaxies-stephans-quintet.jpg){: w="700" h="400"}
+![test-image3](/assets/img/test/james-webb-jupiter.png){: w="200" h="200" .right}  // .nomral, .left, .right
+![test-image4](/assets/img/test/james-webb-satern.png){: .shadow}
 _Neptune Shows Off Its Rings in Near-Infrared Light_  // Image Caption
 ```
 ![random-image](https://picsum.photos/id/2/600/400)
-![test-image](/path/to/img/test/james-webb-deepest-coldest-ices.png)
-![test-image2](/path/to/img/test/james-webb-galaxies-stephans-quintet.jpg){: w="700" h="400"}
-![test-image3](/path/to/img/test/james-webb-jupiter.png){: w="200" h="200" .right}
-![test-image4](/path/to/img/test/james-webb-satern.png){: .shadow}
+![test-image](/assets/img/test/james-webb-deepest-coldest-ices.png)
+![test-image2](/assets/img/test/james-webb-galaxies-stephans-quintet.jpg){: w="700" h="400"}
+![test-image3](/assets/img/test/james-webb-jupiter.png){: w="200" h="200" .right}
+![test-image4](/assets/img/test/james-webb-satern.png){: .shadow}
 _Neptune Shows Off Its Rings in Near-Infrared Light_
 
 # 3. Videos
@@ -209,6 +209,7 @@ _Neptune Shows Off Its Rings in Near-Infrared Light_
 
 # 4. Comments
 ```html
+// _includes 폴더에 해당 내용을 comments.html로 저장해두면 자동으로 나옴
 <script src="https://utteranc.es/client.js"
         repo="kmaengggong/kmaengggong.github.io-utterances"
         issue-term="pathname"
@@ -218,6 +219,7 @@ _Neptune Shows Off Its Rings in Near-Infrared Light_
         async>
 </script>
 ```
+<br>
 <br>
 <script src="https://utteranc.es/client.js"
         repo="kmaengggong/kmaengggong.github.io-utterances"
