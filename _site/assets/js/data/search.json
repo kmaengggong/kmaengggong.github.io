@@ -1,0 +1,21 @@
+[
+  
+  {
+    "title": "First Post",
+    "url": "/posts/first-post/",
+    "categories": "Docs",
+    "tags": "Test",
+    "date": "2023-07-05 00:00:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "1. 기본 설정(.yml)title: \"First Post\"categories: [Docs]tag: [Test]image: /path/to/img/james-webb-cosmic-cliffs.jpg  // Preview Imagepin: false2. Syntax2-1. Headers# Heaeder1## Header2### Header3// h1 ~...",
+    "content": "1. 기본 설정(.yml)title: \"First Post\"categories: [Docs]tag: [Test]image: /path/to/img/james-webb-cosmic-cliffs.jpg  // Preview Imagepin: false2. Syntax2-1. Headers# Heaeder1## Header2### Header3// h1 ~ h6 까지 있음Header1Header2Header32-2. Block Quote&gt; block quote 1&gt; &gt; block quote 2&gt; &gt; &gt; block qoute 3  block quote 1      block quote 2          block qoute 3      2-3. List1. First2. Second3. Third  First  Second  Third- First    - Second        - Third// -가 아니라 *, + 사용해도 됨  First          Second                  Third                    - [ ] Job 1    - [x] Step 1    - [ ] Step 2  Job 1          Step 1      Step 2      2-4. Prompts&gt; Prompt Tip{: .prompt-tip}&gt; Prompt Info{: .prompt-info}&gt; Prompt Warning{: .prompt-warning}&gt; Prompt Danger{: .prompt-danger}  Prompt Tip  Prompt Info  Prompt Warning  Prompt Danger2-5. Tables&lt;table&gt;    &lt;thead&gt;        &lt;tr&gt;            &lt;th&gt;Col1&lt;/th&gt;            &lt;th&gt;Col2&lt;/th&gt;            &lt;th&gt;Col3&lt;/th&gt;        &lt;/tr&gt;    &lt;/thead&gt;    &lt;tbody&gt;        &lt;tr&gt;            &lt;td&gt;Row1&lt;/td&gt;            &lt;td&gt;Row1&lt;/td&gt;            &lt;td&gt;Row1&lt;/td&gt;        &lt;/tr&gt;        &lt;tr&gt;            &lt;td&gt;Row2&lt;/td&gt;            &lt;td&gt;Row2&lt;/td&gt;            &lt;td&gt;Row2&lt;/td&gt;        &lt;/tr&gt;    &lt;/tbody&gt;&lt;/table&gt;                        Col1            Col2            Col3                                    Row1            Row1            Row1                            Row2            Row2            Row2            2-6. Link// [Title](link)[kmaengggong.github.io](https://kmaengggong.github.io \"to home!\")kmaengggong.github.io// &lt;link&gt;// &lt;address&gt;&lt;https://kmaengggong.github.io&gt;&lt;kmaengggong@gmail.com&gt;https://kmaengggong.github.iokmaengggong@gmail.com2-7. Inline Code`Inline Code`Inline Code2-8. Code Blocks```javapublic static void main(String[] args){    System.out.println(\"Hello, Java!\");}\\\\ ```2-9. Line Break// Space Bar 두 번  first line  second linefirst linesecond line2-10. Code Emphasis*TEXT*  **TEXT**  ~~TEXT~~// *는 _로 바꿔도 됨TEXTTEXTTEXT2-11. Images![random-image](https://picsum.photos/id/2/600/400)![test-image](/path/to/img/test/james-webb-deepest-coldest-ices.png)![test-image2](/path/to/img/test/james-webb-galaxies-stephans-quintet.jpg){: w=\"700\" h=\"400\"}![test-image3](/path/to/img/test/james-webb-jupiter.png){: w=\"200\" h=\"200\" .right}  // .nomral, .left, .right![test-image4](/path/to/img/test/james-webb-satern.png){: .shadow}_Neptune Shows Off Its Rings in Near-Infrared Light_  // Image CaptionNeptune Shows Off Its Rings in Near-Infrared Light3. Videos// {% include embed/{Platform}.html id='{ID}' %}{% include embed/youtube.html id='jNQXAC9IVRw' %}  // https://www.youtube.com/watch?v=jNQXAC9IVRw4. Comments&lt;script src=\"https://utteranc.es/client.js\"        repo=\"kmaengggong/kmaengggong.github.io-utterances\"        issue-term=\"pathname\"        label=\"utterances\"        theme=\"github-dark\"        crossorigin=\"anonymous\"        async&gt;&lt;/script&gt;"
+  }
+  
+]
+
