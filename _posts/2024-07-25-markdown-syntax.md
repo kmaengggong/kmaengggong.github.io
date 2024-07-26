@@ -230,9 +230,9 @@ _________________
 
 ### 1-9. Images
 ```
-![WR 124 for Chandra's 25th Anniversary](/assets/images/WR%20124%20for%20Chandra's%2025th%20Anniversary.jpg "WR 124 for Chandra's 25th Anniversary")
+![WR 124 for Chandra's 25th Anniversary](/assets/images/wr-124-for-chandra's-25th-anniversary.jpg "WR 124 for Chandra's 25th Anniversary")
 ```
-![WR 124 for Chandra's 25th Anniversary](/assets/images/WR%20124%20for%20Chandra's%2025th%20Anniversary.jpg "WR 124 for Chandra's 25th Anniversary")
+![WR 124 for Chandra's 25th Anniversary](/assets/images/wr-124-for-chandra's-25th-anniversary.jpg "WR 124 for Chandra's 25th Anniversary")
 
 #### 1-10. Video (~~It's just HTML code~~)
 ```
