@@ -18,3 +18,13 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+# page links
+page:
+  - title: Categories
+    children:
+      - title: Spring
+        url: /categories/#spring
+      - title: Guitar
+        url: /categories/#guitar
+  - title: Tags
