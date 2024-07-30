@@ -8,23 +8,20 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
 
 # page links
-page:
-  - title: Categories
-    children:
-      - title: Spring
-        url: /categories/#spring
-      - title: Guitar
-        url: /categories/#guitar
-  - title: Tags
+# page:
+#   - title: Categories
+#     url: /categories
+#     children:
+#       - title: Spring
+#         url: /categories/#spring
+#       - title: React
+#         url: /categories/#react
+#       - title: SQL
+#         url: /categories/#sql
+#       - title: Books
+#         url: /categories/#books
+#       - title: Guitar
+#         url: /categories/#guitar
+#   - title: Tags

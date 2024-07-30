@@ -1,21 +1,17 @@
 ---
-title: "Markdown Syntax"
+title: "Markdown Basic Syntax"
 excerpt: "LET'S MARKDOWN"
 categories:
-    - Markdown
+    - Guitar
 tags:
     - [Markdown, Syntax]
 toc: true
 toc_sticky: true
 date: 2024-07-25 14:53:00 +0900
-last_modfied_at: 2024-07-25 18:24:00 +0900
+last_modfied_at: 2024-07-30 14:10:00 +0900
 ---
 
-# Markdown Snyax
-
-## 1. Basic Syntax
-
-### 1-1. Headings
+## 1. Headings
 ```
 # Heading level 1
 ## Heading level 2
@@ -31,7 +27,7 @@ last_modfied_at: 2024-07-25 18:24:00 +0900
 ##### Heading level 5
 ###### Heading level 6
 
-### 1-2. Line Breaks
+## 2. Line Breaks
 ```
 Need to add two spaces or more at the end.  
 Then line breaks.
@@ -39,9 +35,9 @@ Then line breaks.
 Need to add two spaces or more at the end.  
 Then line breaks.
 
-### 1-2. Emphasis
+## 3. Emphasis
 
-#### 1-3-1. Bold
+### 3-1. Bold
 ```
 - regular **bold**
 - regular __bold__
@@ -49,7 +45,7 @@ Then line breaks.
 - regular **bold**
 - regular __bold__
 
-#### 1-3-2. Italic
+### 3-2. Italic
 ```
 - korec *italic*
 - korec _italic_
@@ -57,13 +53,13 @@ Then line breaks.
 - korec *italic*
 - korec _italic_
 
-#### 1-3-3. Strikethrough
+### 3-3. Strikethrough
 ```
 - ball ~~strikethrough~~
 ```
 - ball ~~strikethrough~~
 
-#### 1-3-3. Bold and Italic and Strikethrough
+### 3-4. Bold and Italic and Strikethrough
 ```
 - regular and korec and ball ~~***bold and italic and strikethrough***~~
 - regular and korec and ball ~~___bold and italic and strikethrough___~~
@@ -75,15 +71,15 @@ Then line breaks.
 - regular and korec and ball ~~__*bold and italic and strikethrough*__~~
 - regular and korec and ball ~~**_bold and italic and strikethrough_**~~
 
-### 1-4. Blockquotes
+## 4. Blockquotes
 
-#### 1-4-1. Blockquotes
+### 4-1. Blockquotes
 ```
 > block1
 ```
 > block
 
-#### 1-4-2. Blockquotes with Multiple Paragraphs
+### 4-2. Blockquotes with Multiple Paragraphs
 ```
 > block1
 >
@@ -93,7 +89,7 @@ Then line breaks.
 >
 > block2
 
-#### 1-4-3. Nested Blockquotes
+### 4-3. Nested Blockquotes
 ```
 > block1
 > > block2
@@ -103,7 +99,7 @@ Then line breaks.
 > > block2
 > > > block3
 
-#### 1-4-4. Blockquotes with Other Elements
+### 4-4. Blockquotes with Other Elements
 ```
 > #### I'm Heading level 4
 >
@@ -113,9 +109,9 @@ Then line breaks.
 >
 > and I'm ~~bald~~ no **bold**
 
-### 1-5. Lists
+## 5. Lists
 
-#### 1-5-1. Lists
+### 5-1. Lists
 ```
 1. List 1
 2. List 2
@@ -127,7 +123,7 @@ Then line breaks.
 3. List 3
     4. List 4
 
-#### 1-5-2. Unordered Lists
+### 5-2. Unordered Lists
 ```
 - List 1
 - List 2
@@ -139,60 +135,35 @@ Then line breaks.
 - List 3
     - List 4
 
-### 1-6. Code
+## 6. Code
 
-#### 1-6-1. Escaping Backticks
-<pre>
-<code>
+### 6-1. Code
 ```
-public static void main(String[] args) {
-    System.out.println("Hello, world!");
-}
+- I can print <code>Hello, world!</code>
+- I can print `Hello, world!`
 ```
-</code>
-</pre>
+- I can print <code>Hello, world!</code>
+- I can print `Hello, world!`
 
+### 6-2. Escaping Backticks
 ```
-public static void main(String[] args) {
-    System.out.println("Hello, world!");
-}
+``I can escape `backticks`!``
 ```
+``I can escape `backticks`!``
 
-#### 1-6-2. Using HTML Tags
+### 6-3. Code Blocks
 ```
-<pre>
-<code>
-public static void main(String[] args) {
-    System.out.println("Hello, world!");
-}
-</code>
-</pre>
+    <html>
+        <head>
+        </head>
+    </html>
 ```
-<pre>
-<code>
-public static void main(String[] args) {
-    System.out.println("Hello, world!");
-}
-</code>
-</pre>
+    <html>
+        <head>
+        </head>
+    </html>
 
-#### 1-6-3. Language Highlighting
-<pre>
-<code>
-```java
-public static void main(String[] args) {
-    System.out.println("Hello, world!");
-}
-```
-</code>
-</pre>
-```java
-public static void main(String[] args) {
-    System.out.println("Hello, world!");
-}
-```
-
-### 1-7. Horizontal Rules
+## 7. Horizontal Rules
 ```
 ***
 ---
@@ -202,15 +173,15 @@ _________________
 ---
 _________________
 
-### 1-8. Links
+## 8. Links
 
-#### 1-8-1. Links
+### 8-1. Links
 ```
 - Togetoge: [Kara No Hako](https://youtube.com/watch?v=pA-pzhQQFBA&pp=ygUWdG9nZW5hc2hpIHRvZ2Vhcmkgdm9pZA%3D%3D "Ship Duck Warnings")
 ```
 - Togetoge: [Kara No Hako](https://youtube.com/watch?v=pA-pzhQQFBA&pp=ygUWdG9nZW5hc2hpIHRvZ2Vhcmkgdm9pZA%3D%3D "Ship Duck Warnings")
 
-#### 1-8-2. URLs and Email Addresses
+### 8-2. URLs and Email Addresses
 ```
 - Google: <https://www.google.com>
 - E-mail: <kmaengggong@gmail.com>
@@ -218,49 +189,34 @@ _________________
 - Google: <https://www.google.com>
 - E-mail: <kmaengggong@gmail.com>
 
-#### 1-8-3. Reference-style Links
+### 8-3. Reference-style Links
 ```
-[Apologize][1]
+- [Apologize][1]
 
 [1]: <https://ko.wikipedia.org/wiki/%EC%82%AC%EA%B3%BC> "사과"
 ```
-[Apologize][1]
+- [Apologize][1]
 
 [1]: <https://ko.wikipedia.org/wiki/%EC%82%AC%EA%B3%BC> "사과"
 
-### 1-9. Images
+### 8-4. New Tabs
+```
+- New Tab: [새 창](https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EC%83%88+%EC%B0%BD){:target="_blank"}
+```
+- New Tab: [새 창](https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EC%83%88+%EC%B0%BD){:target="_blank"}
+
+## 9. Images
 ```
 ![WR 124 for Chandra's 25th Anniversary](/assets/images/wr-124-for-chandra's-25th-anniversary.jpg "WR 124 for Chandra's 25th Anniversary")
 ```
 ![WR 124 for Chandra's 25th Anniversary](/assets/images/wr-124-for-chandra's-25th-anniversary.jpg "WR 124 for Chandra's 25th Anniversary")
 
-#### 1-10. Video (~~It's just HTML code~~)
+## 10. Video (~~It's just a HTML code~~)
 ```
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw?si=Ael_4Th47ROyc5gU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ```
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw?si=Ael_4Th47ROyc5gU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-## 2. Extended Syntax
-
-### 2-1. Tables
-
-### 2-2. Fenced Code Blocks
-
-### 2-3. Footnotes
-
-### 2-4. Heading IDs
-
-### 2-5. Definition Lists
-
-### 2-6. Task Lists
-
-### 2-7. Emoji
-
-### 2-8. Subscript
-
-### 2-9. Superscript
-
-### 2-10. Automatic URL Linking
-
-### 2-11. Disabling Automatic URL Linking
+## -1. Reference
+\[1\]: [https://www.markdownguide.org/basic-syntax/](https://www.markdownguide.org/basic-syntax/)
