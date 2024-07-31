@@ -4,31 +4,31 @@
 }
 
 .new-comment-header.tabnav {
-    background-color: $base00;
+    background-color: $base00 !important;
 }
 
 .tabnav-tab {
     button[selected="true"] {
-        background-color: $footer-background-color;
+        background-color: $footer-background-color !important;
     }
     button[selected="false"] {
-        background-color: $base00;
+        background-color: $base00 !important;
     }
 }
 
 .comment-body {
-    background-color: $footer-background-color;
+    background-color: $footer-background-color !important;
 
     .form-control {
-        background-color: $base00;
+        background-color: $base00 !important;
     }
 }
 
 .new-comment-footer {
-    background-color: $footer-background-color;
+    background-color: $footer-background-color !important;
 
     .btn-primary {
-        background-color: $primary-color;
+        background-color: $primary-color !important;
     }
 }
 
