@@ -37,6 +37,11 @@ comments: true
           </h1>
           {%- endif %}
           {% include page__meta.html %}
+          <div style="text-align: right;">
+            <a href="https://hits.seeyoufarm.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}" target="_blank">
+              <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}&count_bg=%23E95420&title_bg=%23282828&icon=ubuntu.svg&icon_color=%23E95420&title=Hitdahit&edge_flat=true"/>
+            </a>
+          </div>
         </header>
       {% endunless %}
 

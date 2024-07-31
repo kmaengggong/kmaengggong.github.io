@@ -1,6 +1,10 @@
 .utterances {
     max-width: 100% !important;
+}
 
+ul > li > ul > li > a {
+    font-size: $type-size-7;
+    margin-left: 0.2em;
 }
 
 // .new-comment-header.tabnav {
