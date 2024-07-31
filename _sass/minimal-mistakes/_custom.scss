@@ -1,3 +1,38 @@
+.utterances {
+    max-width: 100% !important;
+
+}
+
+.new-comment-header .tabnav {
+    background-color: $base00;
+}
+
+.tabnav-tab {
+    button[selected="true"] {
+        background-color: $footer-background-color;
+    }
+    buttont[selected="false"] {
+        background-color: $base00;
+    }
+}
+
+.comment-body {
+    background-color: $footer-background-color;
+
+    .form-control {
+        background-color: $base00;
+    }
+}
+
+.new-comment-footer {
+    background-color: $footer-background-color;
+
+    .btn-primary {
+        background-color: $primary-color;
+    }
+}
+
+
 // details {
 //     margin-bottom: 0.5em;
 // }

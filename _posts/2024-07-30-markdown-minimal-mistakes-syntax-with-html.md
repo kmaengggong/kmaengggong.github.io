@@ -2,7 +2,7 @@
 title: "Markdown Minimal Mistakes Syntax With HTML"
 excerpt: "LET'S MARKDOWN"
 categories:
-    - Spring
+    - Guitar
 tags:
     - [Markdown, Syntax, MinimalMistakes, HTML]
 toc: true
