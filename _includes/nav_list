@@ -1,17 +1,18 @@
-{% assign sum = site.posts | size %}
+{% assign total = site.posts | size %}
 
 <nav class="nav__list">
-  {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
+  {% if page.sidebar.title %}
+    <h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>
+  {% endif %}
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
   <ul class="nav__items">
     <li>
-      <span class="nav__sub-title">TOTAL ({{sum}})</span>
+      <span class="nav__sub-title" style="font-size: 0.9em; border-bottom: 1px solid">TOTAL ({{total}})</span>
     </li>
 
     <li>
-      <details>
-      <summary> Java</summary>
+      <span class="nav__sub-title">Java</span>
       {% for category in site.categories %}
         {% if category[0] == "Spring" %}
           {% assign category_name = category[0] | downcase %}
@@ -19,7 +20,6 @@
           {% break %}
         {% endif %}
       {% endfor %}
-      </details>
       <span class="nav__sub-title">JavaScript</span>
       {% for category in site.categories %}
         {% if category[0] == "Vanila" %}
@@ -52,12 +52,12 @@
         {% endif %}
       {% endfor %}
       {% for category in site.categories %}
-      {% if category[0] == "NoSQL" %}
-        {% assign category_name = category[0] | downcase %}
-          <ul><li><a href="/categories/{{ category_name }}" class="">{{ category[0] }} ({{ category[1].size }})</a></li></ul>
-        {% break %}
-      {% endif %}
-    {% endfor %}
+        {% if category[0] == "NoSQL" %}
+          {% assign category_name = category[0] | downcase %}
+            <ul><li><a href="/categories/{{ category_name }}" class="">{{ category[0] }} ({{ category[1].size }})</a></li></ul>
+          {% break %}
+        {% endif %}
+      {% endfor %}
       <span class="nav__sub-title">Algorithm</span>
       {% for category in site.categories %}
         {% if category[0] == "Algorithm" %}
@@ -83,32 +83,5 @@
         {% endif %}
       {% endfor %}
     </li>
-      <!-- <ul> -->
-        <!-- {% for category in site.categories %}
-          {% if category[0] == "Guitar" %}
-            <li><a href="/categories/guitar" class="">Guitar ({{category[1].size}})</a></li>
-          {% endif %}
-        {% endfor %} -->
-      <!-- </ul> -->
-    <!-- {% for navname in include.nav %}
-      {% assign navigation = site.data.navigation[navname] %}
-      {% for nav in navigation %}
-        <li>
-          {% if nav.url %}
-            <a href="{{ nav.url | relative_url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
-          {% else %}
-            <span class="nav__sub-title">{{ nav.title }}</span>
-          {% endif %}
-
-          {% if nav.children != null %}
-          <ul>
-            {% for child in nav.children %}
-              <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
-            {% endfor %}
-          </ul>
-          {% endif %}
-        </li>
-      {% endfor %}
-    {% endfor %} -->
   </ul>
 </nav>

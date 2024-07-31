@@ -131,11 +131,11 @@ Rupa is a Bassist of Togetoge
 
 ### 4-3. Cite Tag
 ```
-> "You ain't ever gonna make it to the stage with that
-> **Mamagoto Guitar**" ---<cite>Tomo Ebizuka</cite>
+> "You ain't ever gonna make it to the stage with that **Mamagoto Guitar**"
+> ---<cite>Tomo Ebizuka</cite>
 ```
-> "You ain't ever gonna make it to the stage with that
-> **Mamagoto Guitar**" ---<cite>Tomo Ebizuka</cite>
+> "You ain't ever gonna make it to the stage with that **Mamagoto Guitar**"
+> ---<cite>Tomo Ebizuka</cite>
 
 
 ## -1. References

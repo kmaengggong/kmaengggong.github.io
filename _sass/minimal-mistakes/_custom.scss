@@ -1,34 +1,40 @@
-summary::-webkit-details-marker { /* Safari 브라우저용 사용자 정의 스타일 */
-    display: none;
-}
-summary {
-    display: block; /* 그 외의 브라우저용 사용자 정의 스타일 */
-}
-/* 브라우저 호환을 위해서는 위 두 사용자 정의 스타일을 모두 지정해야 함 */
+// details {
+//     margin-bottom: 0.5em;
+// }
 
-/* 여기서부터는 details 화살표(marker) 커스텀으로 꾸미기  */
-summary {
-    display: block;
-    font-family: $sans-serif-narrow;
-    font-size: $type-size-6;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-bottom: 1px solid $border-color;
+// summary::-webkit-details-marker { /* Safari 브라우저용 사용자 정의 스타일 */
+//     display: none;
+// }
+// summary {
+//     display: block; /* 그 외의 브라우저용 사용자 정의 스타일 */
+// }
+// /* 브라우저 호환을 위해서는 위 두 사용자 정의 스타일을 모두 지정해야 함 */
 
-    position: relative;
-    padding-left: 1.2em;
-    cursor: pointer;
-}
-summary::before {
-    content: "";
-    position: absolute;
-    border-top: 0.5em solid transparent;
-    border-bottom: 0.5em solid transparent;
-    border-left: 0.75em solid;
-    top: 0.2em;
-    left: 0;
-    transition: .25s transform;
-}
-details[open] summary:before {
-    transform: rotateZ(90deg);
-}
+// /* 여기서부터는 details 화살표(marker) 커스텀으로 꾸미기  */
+// summary {
+//     display: block;
+//     font-family: $sans-serif-narrow;
+//     font-size: $type-size-6;
+//     font-weight: bold;
+//     text-transform: uppercase;
+//     border-bottom: 1px solid $border-color;
+
+//     position: relative;
+//     padding-left: 1.4em;
+//     transform: translateX(0.2em);
+//     cursor: pointer;
+// }
+// summary::before {
+//     content: "";
+//     position: absolute;
+//     border-top: 0.5em solid transparent;
+//     border-bottom: 0.5em solid transparent;
+//     border-left: 0.75em solid;
+//     top: 0.2em;
+//     left: 0;
+//     transform: translateX(0.2em);
+//     transition: .25s transform;
+// }
+// details[open] summary:before {
+//     transform: rotateZ(90deg);
+// }
