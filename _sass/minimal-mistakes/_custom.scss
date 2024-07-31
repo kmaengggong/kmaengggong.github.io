@@ -3,7 +3,7 @@
 
 }
 
-.new-comment-header .tabnav {
+.new-comment-header.tabnav {
     background-color: $base00;
 }
 
@@ -11,7 +11,7 @@
     button[selected="true"] {
         background-color: $footer-background-color;
     }
-    buttont[selected="false"] {
+    button[selected="false"] {
         background-color: $base00;
     }
 }
