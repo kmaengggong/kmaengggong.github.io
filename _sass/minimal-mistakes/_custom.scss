@@ -7,6 +7,47 @@ ul > li > ul > li > a {
     margin-left: 0.2em;
 }
 
+.resume-wrapper-unique {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.resume-container-unique {
+    display: flex;
+    width: 100%;
+}
+.profile-section-unique, .resume-section-unique {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.profile-section-unique {
+    width: 30%;
+    margin-right: 20px;
+    text-align: center;
+}
+.resume-section-unique {
+    width: 70%;
+}
+.profile-image-unique {
+    width: 50%;
+    border-radius: 50%;
+}
+.profile-section-unique h2 {
+    margin-top: 10px;
+}
+.profile-section-unique p {
+    margin: 5px 0;
+}
+.resume-item-unique {
+    margin-bottom: 20px;
+}
+.resume-item-unique h3 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
 // .new-comment-header.tabnav {
 //     background-color: $base00 !important;
 // }
